@@ -7,15 +7,16 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('SecondPage'),
+        title: Text('Second Page'),
       ),
       body: Center(
-          child: RaisedButton(
-        child: Text('Back'),
-        onPressed: () {
-          Navigator.pop(context);
-        },
-      )),
+        child: RaisedButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: Text('Back'),
+        ),
+      ),
     );
   }
 }

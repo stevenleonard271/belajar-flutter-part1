@@ -34,13 +34,17 @@ class MyApp extends StatelessWidget {
                 height: 80,
                 color: Colors.green,
               ),
-              Spacer(flex: 3,),
+              Spacer(
+                flex: 3,
+              ),
               Container(
                 width: 80,
                 height: 80,
-                color: Colors.blue,  
+                color: Colors.blue,
               ),
-              Spacer(flex: 2,)
+              Spacer(
+                flex: 2,
+              )
             ],
           ),
         ),
